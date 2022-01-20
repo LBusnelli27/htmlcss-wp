@@ -24,12 +24,9 @@ body {
 
 /* Classe per distanziare i vari container */
 .margin-bottom {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
-header {
-    
-}
 
 .logo-header {
     height: 80px;
@@ -56,7 +53,32 @@ header {
 
 /* Primo container (jumbotron) */
 .jumbotron {
-    background-color: rgb(211, 228, 143);
+    position: relative;
+}
+
+.jumbotron img{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.text-over-jumbo {
+    position: absolute;
+    left: 70px;
+    bottom: 30px;
+
+    width: 40%;
+    color: #ffffff;
+}
+
+.title-jumbo {
+    font-size: 2.3em;
+    font-weight: 300;
+}
+
+.desc-jumbo {
+
 }
 
 /* Secondo container dove ho creato altre 3 div per dividere lo spazio al suo interno */
