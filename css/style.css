@@ -99,6 +99,7 @@ body {
 /* Secondo container dove ho creato altre 3 div per dividere lo spazio al suo interno */
 .second-container {
     height: 740px;
+    margin-bottom: 130px;
 }
 
 /* Header dentro la seconda section */
@@ -129,6 +130,8 @@ body {
 
 .aside img {
     height: 300px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .text-aside {
@@ -143,7 +146,7 @@ body {
 
 /* Singola classe per le 2 a-side */
 .aside {
-    width: 18%;
+    width: 20%;
     float: left;
 }
 
@@ -154,7 +157,7 @@ body {
 
 /* Contenuto centrale, con il calc per non distruggere tutto :) */
 .center-content {
-    width: calc(54% - 60px);
+    width: calc(60% - 60px);
     height: 700px;
     float: left;
     margin-right: 30px;
@@ -167,8 +170,13 @@ body {
 }
 
 
+
 /* Footer */
-footer {
-    background-color: rgb(130, 35, 189);
-    height: 100px;
+.footer-text {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.footer-text span {
+    color: red;
 }
