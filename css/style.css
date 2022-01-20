@@ -1,0 +1,84 @@
+/* ? RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ! Creato clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Ridimensionato e centrato tutta la pagina */
+body {
+    width: 70%;
+    margin: 20px auto;
+}
+
+/* Classe per distanziare i vari container */
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+header {
+    background-color: plum;
+    height: 180px;
+}
+
+
+/* Usato per eliminare la ridondaza delle height nei content */
+.height-content {
+    height: 600px;
+}
+
+/* Primo container (jumbotron) */
+.jumbotron {
+    background-color: rgb(211, 228, 143);
+}
+
+/* Secondo container dove ho creato altre 3 div per dividere lo spazio al suo interno */
+.second-container {
+    background-color: rgb(65, 138, 227);
+    height: 740px;
+    margin-bottom: 20px;
+}
+
+/* Per evitare ridondanza sul bg-color */
+.bg-lightblue {
+    background-color: lightblue;
+}
+
+/* Header dentro la seconda section */
+.top-section {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+/* Singola classe per le 2 a-side */
+.aside {
+    width: 15%;
+    float: left;
+}
+
+/* Specifico per aside a sx */
+.aside-left {
+    margin-right: 20px;
+}
+
+/* Contenuto centrale, con il calc per non distruggere tutto :) */
+.center-content {
+    width: calc(70% - 40px);
+    float: left;
+    margin-right: 20px;
+}
+
+
+/* Footer */
+footer {
+    background-color: rgb(130, 35, 189);
+    height: 100px;
+}
