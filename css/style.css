@@ -25,8 +25,13 @@ body {
 }
 
 header {
-    background-color: plum;
     height: 180px;
+}
+
+.logo-header {
+    height: 80px;
+    padding-right: 20px;
+    border-right: 1px solid #cecece;
 }
 
 
