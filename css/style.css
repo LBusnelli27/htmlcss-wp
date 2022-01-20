@@ -49,8 +49,11 @@ body {
 
 /* Primo container (jumbotron) */
 .jumbotron {
-    position: relative;
     margin-bottom: 200px;
+}
+
+.relative {
+    position: relative;
 }
 
 .absolute {
@@ -69,7 +72,7 @@ body {
 
 .shade-banner {
     background-color: #7e7e7e;
-    opacity: 0.4;
+    opacity: 0.3;
     z-index: 2;
     top: 0;
 }
@@ -91,16 +94,11 @@ body {
     font-size: 1.1em;
 }
 
+
+
 /* Secondo container dove ho creato altre 3 div per dividere lo spazio al suo interno */
 .second-container {
-    background-color: rgb(65, 138, 227);
     height: 740px;
-    margin-bottom: 20px;
-}
-
-/* Per evitare ridondanza sul bg-color */
-.bg-lightblue {
-    background-color: lightblue;
 }
 
 /* Header dentro la seconda section */
@@ -109,9 +107,43 @@ body {
     margin-bottom: 20px;
 }
 
+.title-leadership {
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.subtitle-leadership {
+    font-size: 1.2em;
+    color: #7e7e7e;
+}
+
+.shade-aside {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #7e7e7e;
+    opacity: 0.3;
+    z-index: 2;
+    top: 0;
+}
+
+.text-aside {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.title-aside {
+    
+}
+
+.desc-aside {
+    top: 15px;
+    color: #7e7e7e;
+}
+
 /* Singola classe per le 2 a-side */
 .aside {
-    width: 15%;
+    width: 18%;
     float: left;
 }
 
@@ -122,7 +154,7 @@ body {
 
 /* Contenuto centrale, con il calc per non distruggere tutto :) */
 .center-content {
-    width: calc(70% - 40px);
+    width: calc(54% - 40px);
     float: left;
     margin-right: 20px;
 }
