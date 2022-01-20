@@ -5,6 +5,9 @@
     padding: 0;
 }
 
+* {
+    font-family: 'Roboto', sans-serif;}
+
 /* ! Creato clearfix */
 .clearfix::after {
     content: "";
@@ -25,13 +28,24 @@ body {
 }
 
 header {
-    height: 180px;
+    
 }
 
 .logo-header {
     height: 80px;
     padding-right: 20px;
     border-right: 1px solid #cecece;
+    margin-bottom: 40px;
+}
+
+.navbar li {
+    display: inline;
+    list-style: none;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #7e7e7e;
 }
 
 
