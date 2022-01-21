@@ -70,7 +70,7 @@ body {
     border-radius: 20px;
 }
 
-/* Per fixare immagine cosi da rispire tutto */
+/* Per fixare immagine cosi da riempire tutto */
 .jumbotron img{
     object-fit: cover;
 }
