@@ -105,12 +105,11 @@ body {
 
 /* Secondo container dove ho creato altre 3 div per dividere lo spazio al suo interno */
 .second-container {
-    
+    margin-bottom: 100px;
 }
 
 /* Header dentro la seconda section */
 .top-section {
-    height: 100px;
     margin-bottom: 20px;
 }
 
@@ -165,7 +164,6 @@ body {
 /* Contenuto centrale, con il calc per non distruggere tutto :) */
 .center-content {
     width: calc(50% - 60px);
-    height: 700px;
     float: left;
     margin-right: 30px;
 }
